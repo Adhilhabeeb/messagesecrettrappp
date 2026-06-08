@@ -1,0 +1,10 @@
+{
+  "name": "Secure Chat & Chess",
+  "description": "An end-to-end encrypted chat application featuring real-time multiplayer Chess in the background, live WebRTC voice calls, encrypted voice notes, and a quick-reply overlay drawer.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

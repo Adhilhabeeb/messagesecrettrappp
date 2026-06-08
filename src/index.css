@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* 
+  Prevent mobile browser auto-zoom on input focus.
+  Mobile viewport keyboards zoom in if the computed font-size of a focused 
+  input is less than 16px. Enforcing exactly 16px prevents this zoom.
+*/
+@media (max-width: 767px) {
+  input[type="text"],
+  input[type="password"],
+  input[type="number"],
+  input[type="email"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="url"],
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+}
+
